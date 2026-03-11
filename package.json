@@ -1,0 +1,16 @@
+{
+  "name": "youtube-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "scrape": "node src/index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "youtube-caption-extractor": "^1.9.1"
+  }
+}
